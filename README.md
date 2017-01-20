@@ -14,7 +14,7 @@ Build an alarm that wakes you up with a slap in your face and turns off after yo
 
 ### Components
 - DC motor
-- Arduno Mega 2560
+- Arduino Mega 2560
 - Spark Core
 - Grove starter kit plus (Relay shield, Base shield and Light sensor)
 - General electronic components (resistors, capacitors, etc)
