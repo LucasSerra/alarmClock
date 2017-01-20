@@ -1,0 +1,10 @@
+https://circuits.io/circuits/3764385-schematic
+
+20/01/2017:
+- Added Light Sensor;
+- Added Arduino;
+- Added Relay;
+- Added DC motor;
+
+To do:
+- Switch Arduino for Spark Core
