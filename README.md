@@ -35,9 +35,10 @@ Build an alarm that wakes you up with a slap in your face and turns off after yo
 - [ ] Create android App;
 - [ ] Create iOS App;
 - [ ] Update/finalize the README.md to share this repository;
-- [ ] Make a visualization mechanism for the Moore Machine states.
+- [ ] Make the alarm usable during the day;
 
 ## Developers
 - [Hugo Fellipe](https://github.com/Hugo-cruz)   - 495697
-- [Lucas Serra](https://github.com/LucasSerra) - 
+- [Lucas Serra](https://github.com/LucasSerra) - 510475
 - [Felipe Freitas](https://github.com/prepilef) - 495786
+- [Tomas Kepple](https://github.com/tomaskb)   - 
