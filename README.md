@@ -37,7 +37,8 @@ Build an alarm that wakes you up with a slap in your face and turns off after yo
 - [ ] Create android App;
 - [ ] Update/finalize the README.md to share this repository;
 - [ ] Make the alarm usable in a iluminated ambient;
-- [ ] Implement snooze functionality.
+- [ ] Implement a snooze functionality.
+- [ ] Implement a buzzer sound.
 
 ## Developers
 - [Hugo Fellipe](https://github.com/Hugo-cruz)   - 495697
