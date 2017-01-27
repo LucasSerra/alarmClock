@@ -31,6 +31,7 @@ Build an alarm that wakes you up with a slap in your face and turns off after yo
 - [ ] Test and validate wi-fi connection on Spark Core;
 - [ ] Implement an alarm using Spark Core;
 - [ ] Create an html file to setup and control the alarm.
+- [ ] Create a mechanical structure.
 
 ## Extras
 - [ ] Create android App;
