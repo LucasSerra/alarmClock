@@ -25,20 +25,21 @@ Build an alarm that wakes you up with a slap in your face and turns off after yo
 - [X] Test and validate DC motor;
 - [X] Test and validate the grove light sensor;
 - [X] Test and validate the grove Relay;
-- [X] Integrate light sensor and Relay;
-- [X] Integrate light sensor, Relay and DC motor;
+- [X] Test and validate the grove Sound Buzzer;
+- [X] Integrate light sensor, Relay, DC motor and Sound Buzzer;
 - [X] Create circuit schematic;
-- [ ] Test and validate wi-fi connection on Spark Core;
-- [ ] Implement an alarm using Spark Core;
-- [ ] Create an html file to setup and control the alarm.
-- [ ] Create a mechanical structure.
+- [X] Test and validate wi-fi connection on Spark Core;
+- [X] Implement the alarm code for the Spark Core;
+- [X] Create an html file to setup and control the alarm;
+- [ ] Integrate alarm code and initial tests code;
+- [ ] Create a mechanical structure;
+- [ ] Integrate the mechanical structucre and the Core.
 
 ## Extras
-- [ ] Create android App;
+- [ ] Create an android App;
 - [ ] Update/finalize the README.md to share this repository;
-- [ ] Make the alarm usable in a iluminated ambient;
+- [ ] Make the alarm usable in an iluminated ambient;
 - [ ] Implement a snooze functionality.
-- [ ] Implement a buzzer sound.
 
 ## Developers
 - [Hugo Fellipe](https://github.com/Hugo-cruz)   - 495697
