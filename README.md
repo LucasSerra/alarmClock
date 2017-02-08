@@ -32,8 +32,6 @@ Build an alarm that wakes you up with a slap in your face and turns off after yo
 - [X] Implement the alarm code for the Spark Core;
 - [X] Create an html file to setup and control the alarm;
 - [X] Integrate alarm code and initial tests code;
-- [ ] Create a mechanical structure;
-- [ ] Integrate the mechanical structucre and the Core.
 
 ## Extras
 - [ ] Create an android App;
