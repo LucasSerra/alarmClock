@@ -1,4 +1,4 @@
-https://circuits.io/circuits/3764385-schematic
+http://www.schematics.com/project/projetofinalmic-48831/
 
 20/01/2017:
 - Added Light Sensor;
@@ -6,5 +6,7 @@ https://circuits.io/circuits/3764385-schematic
 - Added Relay;
 - Added DC motor;
 
-To do:
-- Switch Arduino for Spark Core
+08/02/2017:
+- Changed the url
+- Added Power Supply
+- Switched Arduino for Spark Core
