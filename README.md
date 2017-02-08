@@ -31,7 +31,7 @@ Build an alarm that wakes you up with a slap in your face and turns off after yo
 - [X] Test and validate wi-fi connection on Spark Core;
 - [X] Implement the alarm code for the Spark Core;
 - [X] Create an html file to setup and control the alarm;
-- [ ] Integrate alarm code and initial tests code;
+- [X] Integrate alarm code and initial tests code;
 - [ ] Create a mechanical structure;
 - [ ] Integrate the mechanical structucre and the Core.
 
