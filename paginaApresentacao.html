@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>aSlap: Get up asap! </title>
+		<link href="web/css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="web/js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="web/css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="web/js/move-top.js"></script>
+		<script type="text/javascript" src="web/js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+	</head>
+	<body>
+		<!---- container ---->
+		<div class="container">
+			<!---- header ---->
+			<div class="header">
+				<div class="col-md-5 header-left">
+					<!----sreen-gallery-cursual---->
+						<div class="sreen-gallery-cursual">
+							 <!-- requried-jsfiles-for owl -->
+							<link href="web/css/owl.carousel.css" rel="stylesheet">
+							    <script src="web/js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+						       <div id="owl-demo" class="owl-carousel">
+					                <div class="item">
+					                	<img src="web/images/Main_screen.png" title="name" />
+					                </div>    
+				              </div>
+						<!--//screen-gallery-cursual---->
+				</div>
+				</div>
+				<div class="col-md-7 header-right">
+					
+					<p> As university students, we developers of this project find it very hard to wake up for morning classes. With that in mind, we created aSlap! It is an alarm that wakes you up with a slap in the face and won't stop unless you turn off your room light(We hope you don't have a light switch close to your bed haha). aSlap was developed for the final project of the Microcontrollers and Applications course taught in Universidade Federal de Sao Carlos. You can manage aSlap on your mobile device with our Android app or on any internet browser. </p>
+					<ul class="big-btns">
+						<li><a class="btn-g" href="http://iot.ee.surrey.ac.uk/KrumbsReports/KrumbsReport.apk"><img src="web/images/ic_launcher.png" width="10%" title="Android_Logo"/> &nbsp &nbsp &nbsp Download android app </a></li>
+						<br>
+						<br>
+						<li><a class="btn-gr" href="file:///C:/Users/Felipe/Desktop/alarmClock-master/firmware/web/index.html" target="_blanc">Go to the web manager</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			</div>
+			<!---- header ---->
+			<!----- top-grids ----->
+			<div class="top-grids">
+				<div class="container">
+					<div class="top-grids-head text-center">
+					 	<a href="https://github.com/LucasSerra/alarmClock" target="_blank">
+					 		<img src="web/images/GitHub_Logo.png" width="10%" title="GitHub_Logo"/>
+					 	</a>
+						<h4 style="color: white;">Visit our github project page!</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---- container ---->
+	</body>
+</html>
+
