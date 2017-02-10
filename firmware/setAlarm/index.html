@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>aSlap: wake up, you lazy ass!</title>
 	
 	<script>
 		function date_time(id)
@@ -97,7 +97,7 @@
     <![endif]-->
   </head>
   <body >
-	<center>
+	<div align="center">
 		<br>
 		<br>
 		<br>
@@ -110,23 +110,23 @@
 		
 		<div id="aSlap">
 		<div><div class="leftcolumn"><h1>Set Alarm Time:<h1></div> <span><select class="btn btn-default dropdown-toggle" onchange="concatenate()"></select><button type="button" class="btn btn-default"> Hours</button></span> <span><select class="btn btn-default dropdown-toggle" onchange="concatenate()"></select> <button type="button" class="btn btn-default"> Minutes</button></span></div>
-		<input class="btn btn-default" type="submit"  value="Set Slap Time" id="submitbutton" /> <input type="reset" class="btn btn-default" value="Reset" id="resetbutton" />
+		<input class="btn btn-default" type="submit"  value="Set Slap Time" id="submitbutton" /> <input type="reset" class="btn btn-default" value="Reset" id="resetbutton" /><br><input class="btn btn-default"  type="submit" align="center" value="Send data to cloud!">
 		</div>
 		
 		<form class="navbar-form navbar-left" action="https://api.particle.io/v1/devices/55ff6d066678505556411367/alarm?access_token=c0ed181d6b0d4884303399e8934f92c6362012af" method="POST">
 		<br>
 
-		<input class="btn btn-default"  type="submit" align="center" value="Send data to cloud!">
-		<input type="hidden" id="timeString" name="arg" value="07:00"/>
+		
+		
 	  </form>
 		
 		<script type="text/javascript">
 		aSlap.init()
 		</script>
 		
-	</center>
+	</div>
 	
-
+<input type="hidden" id="timeString" name="arg" value="07:00"/>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
