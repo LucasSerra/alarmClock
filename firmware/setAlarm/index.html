@@ -8,6 +8,7 @@
     <title>aSlap: wake up, you lazy ass!</title>
 	
 	<script>
+		//Javascript function to show the actual time on the screen
 		function date_time(id)
 			{
 					date = new Date;
@@ -39,7 +40,10 @@
 			}
 	</script>
 	
+	  
+	  
 	<script type="text/javascript">
+		//Function responsible to send info to Spark core
 	var aSlap={
 		padfield:function(f){
 			return (f<10)? "0"+f : f
@@ -70,6 +74,7 @@
 				this.minuteselect[i]=new Option(this.padfield(i), this.padfield(i), false, dateobj.getMinutes()==i)
 			}
 		},
+		//Set the alarm function on spark core
 		setalarm:function(){
 			document.getElementById("timeString")
 			this.hourwake=this.hourselect.options[this.hourselect.selectedIndex].value
@@ -79,6 +84,7 @@
 		}
 		
 		}
+	//put the timestring (hour, date and minute) toghether
 		var concatenate=function(){
 				
 				document.getElementById("timeString").value = document.getElementsByTagName("select")[0].value + ":" + document.getElementsByTagName("select")[1].value
@@ -86,9 +92,13 @@
 		</script>
 	</head>
 
+	<!-- in this program, we will use bootstrap to make this page responsible -->
+	<!-- to get more info, ple visit getbootstrap.com -->
+	
+	
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -107,19 +117,21 @@
 			<span id="date_time"></span>
             <script type="text/javascript">window.onload = date_time('date_time');</script>
 		
-		
+		<!-- this divs are the base forms to this code -->
+		<!-- they will receive the time (hour, minute and time) and will set the alarm -->
 		<div id="aSlap">
 		<div><div class="leftcolumn"><h1>Set Alarm Time:<h1></div> <span><select class="btn btn-default dropdown-toggle" onchange="concatenate()"></select><button type="button" class="btn btn-default"> Hours</button></span> <span><select class="btn btn-default dropdown-toggle" onchange="concatenate()"></select> <button type="button" class="btn btn-default"> Minutes</button></span></div>
-		<input class="btn btn-default" type="submit"  value="Set Slap Time" id="submitbutton" /> <input type="reset" class="btn btn-default" value="Reset" id="resetbutton" /><br><input class="btn btn-default"  type="submit" align="center" value="Send data to cloud!">
+		<input class="btn btn-default" type="submit"  value="Set Slap Time" id="submitbutton" /> <input type="reset" class="btn btn-default" value="Reset" id="resetbutton" /><br>
 		</div>
-		
+		<!-- this form will send the information to the spark core via cloud -->
 		<form class="navbar-form navbar-left" action="https://api.particle.io/v1/devices/55ff6d066678505556411367/alarm?access_token=c0ed181d6b0d4884303399e8934f92c6362012af" method="POST">
+			<input class="btn btn-default"  type="submit" align="center" value="Send data to cloud!">
 		<br>
 
 		
 		
 	  </form>
-		
+		<!-- this section call the init method to start sending info to the spark core -->
 		<script type="text/javascript">
 		aSlap.init()
 		</script>
