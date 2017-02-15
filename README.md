@@ -34,12 +34,12 @@ Build an alarm that wakes you up with a slap in your face and turns off after yo
 - [X] Integrate alarm code and initial tests code;
 
 ## Extras
-- [x] Create an android App;
-- [ ] Update/finalize the README.md to share this repository;
+- [X] Create an android App;  
+- [X] Update/finalize the README.md to share this repository;
 
 ## Wiki  
   Please refer to our [Wiki Page] (https://github.com/LucasSerra/alarmClock/wiki) to see a more in-depth documentation  
-  Please refer to our [App Page] (https://lucasserra.github.io/alarmClock/) to download our app to your Android
+  Please refer to our [Project Page] (https://lucasserra.github.io/alarmClock/) to download our app to your Android
   
 ## Developers
 - [Hugo Fellipe](https://github.com/Hugo-cruz)   - 495697
